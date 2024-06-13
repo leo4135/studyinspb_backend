@@ -1,6 +1,6 @@
 import mysql from 'mysql'
-import {data} from './dataExportsExcelToJSON/data.js'
-import {dataFromActual} from './dataExportsExcelToJSON/dataFromActual.js'
+import {data} from '../dataExportsExcelToJSON/data.js'
+import {dataFromActual} from '../dataExportsExcelToJSON/dataFromActual.js'
 
 const dataUpload = data;
 const dataUpload2 = dataFromActual;
